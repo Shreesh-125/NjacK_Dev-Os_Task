@@ -1,0 +1,954 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+2:wght@500&family=Baloo+Bhai+2&family=Kanit&family=Open+Sans&family=Poppins&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Slab:wght@800&family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@800&family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather+Sans&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@800&family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather+Sans&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@800&family=Rubik:wght@500&family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather+Sans&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@800&family=Roboto:wght@300&family=Rubik:wght@500&family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@800&family=Roboto:wght@300&family=Rubik:wght@500&family=Sarabun:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 9vh;
+}
+body{
+    /* background-color: #131e62; */
+    background-color: #272f64;
+    height: 393vh;
+}
+.orange{
+    background-color: #fe764b;
+    width: 67%;
+    height: 119vh;
+    border-radius: 91px;
+    transform: skew(-15deg, -19deg);
+    margin-top: -36vh;
+    margin-left: -16vh;
+    position: relative;
+    z-index: -2;
+}
+nav{
+    display: flex;
+    margin-top: 0.5vh;
+}
+.navbar{
+    width: 34vw;
+    padding-top: 1vw;
+    display: flex;
+    padding-left: 0vw;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: Poppins;
+}
+.sign_up{
+    color: white;
+    padding-left: 9vw;
+    font-size: 1.3vw;
+    justify-content: space-evenly;
+    display: flex;
+    width: 24vw;
+    padding-top: 1.3vh;
+}
+.sign_up a{
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3pc;
+    text-align: center;
+    padding-top: 0.8%;
+}
+#brandname{
+    width: 14vw;
+    padding-left: 5%;
+    font-size: 2.4vw;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.login_btn{
+    padding-top: 0.8vh;
+}
+.box_purple{
+    background-color: #a06bff;
+    width: 7.3vw;
+    padding-left: 1.2vw;
+    padding-top: 2%;
+    border-radius: 5px;
+    border: 0.1vw solid yellow;
+
+}
+.box_purple:hover{
+  background-color: blueviolet;
+  color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.blank_space{
+    height: 7vh;
+    width: 50vw;
+}
+.body{
+    width: 46%;
+}
+.body h2{
+    padding-left: 35%;
+    padding-top: 2%;
+    font-size: 4vw;
+    width: 33vw;
+    color: white;
+    font-family:'Roboto Slab', serif;;
+}
+.bellow_space{
+    padding-left: 35%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.image_study{
+    /* mix-blend-mode: multiply; */
+    margin-top: 6vh;
+    margin-left: 19vw;
+}
+.row1{
+    display: flex;
+}
+.smallpara{
+  margin-top: 4vh;
+}
+.body p{
+  font-weight: 600;
+}
+.body p1{
+  padding-left: 16vw;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 1.5vw;
+
+}
+.row1button{
+height: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 14vw;
+justify-content: space-evenly;
+padding-top: 2%;
+}
+.R-button1{
+  height: 60%;
+  width: 40%;
+  font-size: 1.3vw;
+  border-radius: 0.6vw;
+  font-family: Poppins;
+  background-color: #a06bff;
+  color: white;
+  border: 0.1vw solid #a06bff;
+
+}
+.R-button2{
+  height: 60%;
+  width: 40%;
+  font-size: 1.3vw;
+  border-radius: 0.6vw;
+  background-color: #fe764b;
+  border: 0.15vw solid white;
+  color: white;
+  font-family: Poppins;
+}
+.row2{
+  margin-top: 5vw;
+}
+.img1{
+    margin-left: 18vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 4vh;
+    border-radius: 20px;
+    width: 25%;
+    height: 31%;
+}
+.img2{
+    margin-left: 14vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 25%;
+    height: 29%;
+    border-radius: 20px;
+}
+
+
+  /* -------------------------------------------------------------------------------------------------------------------- */
+
+
+/* figures */
+.figures{
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    width: 20%;
+    height: 100%;
+}
+.subbox1{
+    height: 80%;
+    width: 100%;
+    color: #be9cfb;
+    font-size: 5vw;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    font-family: 'Sarabun', sans-serif;
+}
+.box1p{
+    COLOR: white;
+    justify-content: center;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7vw;
+}
+.box2{
+    width: 20%;
+    height: 100%;
+}
+.subbox2{
+    height: 80%;
+    width: 100%;
+    color: #be9cfb;
+    font-size: 5vw;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    font-family: 'Sarabun', sans-serif;
+}
+.box2p{
+    COLOR: white;
+    justify-content: center;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7vw;
+}
+.box3{
+    width: 20%;
+    height: 100%;
+}
+.subbox3{
+    height: 80%;
+    width: 100%;
+    color: #be9cfb;
+    font-size: 5vw;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    font-family: 'Sarabun', sans-serif;
+}
+.box3p{
+    COLOR: white;
+    justify-content: center;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7vw;
+}
+.box4{
+    width: 20%;
+    height: 100%;
+}
+.subbox4{
+    height: 80%;
+    width: 100%;
+    color: #be9cfb;
+    font-size: 5vw;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    font-family: 'Sarabun', sans-serif;
+}
+.box4p{
+    COLOR: white;
+    justify-content: center;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7vw;
+}
+
+  /* -------------------------------------------------------------------------------------------------------------------- */
+
+
+/* home course 1 */
+.home_courses{
+    display: flex;
+    padding-top: 20vh;
+}
+.course_discription{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.orangestrip{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 23vw;
+}
+.strip{
+    height: 2vh;
+    width: 10vw;
+    background-color: #fe764b;
+}
+.H_C_heading{
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 3.5vw;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.H_C_info{
+    height: 20vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8.3vw;
+    font-size: 1.25vw;
+    font-family: 'Nunito Sans', sans-serif
+}
+.H_C_learnmore a{
+    color: #be9cfb;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5vw;
+}
+.H_C_learnmore{
+    padding-left: 8.4vw;
+}
+.homecoursephoto{
+    width: 50%;
+}
+
+  /* -------------------------------------------------------------------------------------------------------------------- */
+
+/* Home courses 2 */
+.home_courses2{
+    color: white;
+    margin-top: 22vh;
+    height: 32vh;
+    
+    height: 135vh;
+   
+}
+.HC_head{
+    font-size: 1.7vw;
+    margin-left: 12vw;
+    color: #be9cfb;
+    font-family: 'Kanit', sans-serif;
+}
+.HC_tagline{
+    font-size: 4vw;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    font-family: 'Kanit', sans-serif;
+}
+.HC_info{
+    font-size: 1.3vw;
+    margin-top: 2vh;
+    
+    margin-right: 52vw;
+    display: flex;
+    margin-left: 12vw;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif
+}
+.HC_photos{
+    height: 75vh;
+    margin-top: 12vh;
+    display: flex;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    justify-content: space-evenly;
+}
+.block1{
+    height: 105%;
+    width: 17%;
+    background-color: white;
+    z-index: -2;
+   
+}
+.onpic{
+    display: flex;
+}
+.block1 img{
+    z-index: -2;
+    margin-top: -8.1vh;
+    position: relative;
+}
+.sale{
+    color: white;
+    width: 20%;
+    height: 5%;
+    font-size: 1.4vw;
+    background-color: #da4c4c;
+    border-radius: 0.5vw;
+    padding-left: 0.2vw;
+    margin-left: 1vw;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 0.3vh;
+}
+
+
+  .fa{
+    font-size: 3vw;
+    color: black;
+    border-radius: 10.1vw;
+    border: 0.1vw solid black;
+    width: 2.9vw;
+    height: 3vw;
+    margin-left: 7.5vw;
+    padding-bottom: 0vh;
+    padding-top: 1vh;
+    padding-left: 0.8vw;
+    background-color: white;
+  }
+
+  .B1firstline{
+    color: #854bec;
+    display: flex;
+
+  }
+  .ratingpic1{
+    height: 100%;
+    margin-top: 3.5vh;
+    margin-left: 0.5vw;
+    width: 41%;
+  }
+  .ratingpic1 img{
+    margin-left: 1.5vw;
+  }
+  .course1name{
+    FONT-SIZE: 1.2vw;
+    font-family: 'Kanit';
+    width: 62%;
+    padding-top: 1.6vh;
+    padding-left: 0.4vw;
+  }
+  .secondline{
+    color: black;
+    height: 6vh;
+    font-size: 1.3vw;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-left: 0.5vw;
+    padding-top: 1vh;
+    font-weight: 400;
+  }
+  .thirdline{
+    color: black;
+    color: #9E9E9E;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #9E9E9E;
+    font-size: 1vw;
+    padding-left: 0.6vw;
+    margin-top: -1vh;
+  }
+  .fourthline{
+    height: 6vh;
+    display: flex;
+    color:#9E9E9E ;
+    margin-left: 0.3vw;
+    
+  }
+  .fourthline img{
+    margin-top: 1vh;
+  }
+  .fifthline{
+    display: flex;
+    color:#9E9E9E;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 1vw;
+    padding-top: 1vh;
+    font-weight: 500;
+    font-size: 1.4vw;
+  }
+  
+
+  
+.block2{
+    height: 105%;
+    width: 17%;
+    background-color: white;
+    z-index: -2;
+}
+.block2 img{
+    z-index: -1;
+    margin-top: -8.1vh;
+    position: relative;
+}
+.B2firstline{
+    color: #854bec;
+    display: flex;
+  }
+  .ratingpic2{
+    height: 100%;
+    margin-top: 3.5vh;
+    margin-left: 0vw;
+    width: 41%;
+  }
+  .ratingpic2 img{
+    margin-left: 1.5vw;
+  }
+  .course2name{
+    FONT-SIZE: 1.2vw;
+    font-family: 'Kanit';
+    width: 62%;
+    padding-top: 1.6vh;
+    padding-left: 0.4vw;
+  }
+  .coursepara{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  
+  
+  
+
+.block3{
+    height: 105%;
+    width: 17%;
+    background-color: white;
+    z-index: -2;
+}
+.block3 img{
+    z-index: -1;
+    margin-top: -8.1vh;
+    position: relative;
+
+}
+.B3firstline{
+    color: #854bec;
+    display: flex;
+  }
+  .ratingpic3{
+    height: 100%;
+    margin-top: 3.5vh;
+    margin-left: 1vw;
+    width: 41%;
+  }
+  .ratingpic3 img{
+    margin-left: 1.5vw;
+  }
+  .course3name{
+    FONT-SIZE: 1.2vw;
+    font-family: 'Kanit';
+    width: 62%;
+    padding-top: 1.6vh;
+    padding-left: 0.4vw;
+  }
+  
+  
+.block4{
+    height: 105%;
+    background-color: white;
+    width: 17%;
+    z-index: -2;
+}
+.block4 img{
+    z-index: -1;
+    margin-top: -8.1vh;
+    position: relative;
+
+}
+.B4firstline{
+    color: #854bec;
+    display: flex;
+  }
+  .ratingpic4{
+    height: 100%;
+    margin-top: 3.5vh;
+    margin-left: 0.5vw;
+    width: 41%;
+  }
+  .ratingpic4 img{
+    margin-left: 1.5vw;
+  }
+  
+  .course4name{
+    FONT-SIZE: 1.2vw;
+    font-family: 'Kanit';
+    width: 62%;
+    padding-top: 1.6vh;
+    padding-left: 0.4vw;
+  }
+  .fourthline img{
+    margin-top: 1.6vh;
+  }
+  .fourthline p{
+    padding-top: 2vh;
+    font-size: 1.3vw;
+    padding-left: 0.5vw;
+    font-family: 'Kanit', sans-serif;
+    color: #504a4a;
+  }
+  .fifthline p2{
+    color: #fb7908;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 0.4vw;
+  }
+  .sixthline a{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    width: 64%;
+    display: flex;
+    margin-left: 1.9vw;
+    height: 5.5vh;
+    background-color: white;
+    margin-top: 1.8vh;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #854bec;
+    border: 0.1vw solid #854bec;
+    padding-bottom: 0.3vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    cursor: pointer;
+   
+  }
+  .sixthline a:hover{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    width: 64%;
+    display: flex;
+    margin-left: 1.9vw;
+    height: 5.5vh;
+    background-color: #854bec;
+    margin-top: 1.8vh;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: white;
+    border: 0.1vw solid #854bec;
+    padding-bottom: 0.3vh;
+    padding-left: 1vw;
+    padding-top: 0.5vh;
+   
+  }
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Home teachers section */
+
+  .home_teachers{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 12vw;
+  }
+  .HT_smallheading{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(190, 156, 251);
+    font-size: 1.7vw;
+
+  }
+  .HT_bigheading{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4vw;
+  }
+  .HT_info{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3vw;
+  }
+ 
+  .HT_photos{
+    font-size: 2.3vw;
+    height: 36vw;
+    padding-top: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2vw;
+    font-family: 'Rubik', sans-serif;
+    margin-left: -5vw;
+  }
+  .teachers_pic img{
+   width: 100%;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+  }
+  .teachers_pic p{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+  }
+
+
+  
+  
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+
+/* newsletter section */
+.newsletter{
+    color: white;
+    font-family: Poppins;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35vh;
+    font-size: 1.4vw;
+}
+.NL_topic{
+    margin-top: 1vh;
+    font-size: 4vw;
+}
+.descriptionofNL{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.NL_Head{
+    color: #be9cfb;
+}
+.firstline_NL{
+    padding-left: 6vw;
+}
+.NL_searchbar{
+    margin-top: 10vh;
+    display: flex;
+    margin-top: 10vh;
+    width: 73vw;
+    height: 5vw;
+}
+form.NL_searchbar input[type=text] {
+    padding: 10px;
+    padding-left: 2vw;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+    
+  }
+  
+  form.NL_searchbar button {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #7547c7;
+    color: white;
+    font-size: 1.3vw;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    font-family: Poppins;
+    
+  }
+  
+  form.NL_searchbar button:hover {
+    background: #6e50a2;
+  }
+  
+  form.NL_searchbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  /* -------------------------------------------------------------------------------------------------------------------- */
+
+  /* footer */
+  .footer{
+    display: flex;
+    font-size: 1.3vw;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 35vh;
+    margin-top: 26vh;
+    margin-right: 0;
+    margin-left: 11vw;
+    color: white;
+    font-family: Poppins;
+    width: 60vw;
+      
+}
+
+.home_contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 26vh;
+    color: white;
+    font-family: Poppins;
+    row-gap: 5vh;
+}
+
+
+@media screen and (max-width: 932px){
+  #brandname{
+    font-size: 25px;
+  }
+  .navbar{
+    margin-top: 6vh;
+    margin-left: -9vw;
+  }
+  .navbar a{
+    font-size: 9px;
+    margin-right: 1vh;
+  }
+  .sign_up{
+    margin-left: 12vw;
+    width: 32%;
+  }
+  .sign_up a{
+    font-size: 9px;
+  }
+  
+  .box_purple{
+    height: 20px;
+    width: 52px;
+    font-size: 9px;
+  }
+  .login_btn{
+    font-size: 11px;
+    margin-left: -5vw;
+    padding-top: 0.6vw;
+  }
+  .orange{
+    background-color: #fe764b;
+    width: 71%;
+    height: 154vh;
+    border-radius: 91px;
+    transform: skew(-19deg, -11deg);
+    margin-top: -36vh;
+    margin-left: -26vh;
+    position: relative;
+    z-index: -2;
+  }
+  .body{
+   margin-left: -6vw;
+  }
+  .image_study{
+    margin-top: 1vh;
+    margin-left: 22vw;
+  }
+  .blank_space{
+    height: 2vh;
+  }
+  .bellow_space{
+    font-size: 2vw
+  }
+  .body h2{
+    font-size: 5vw;
+  }
+  .smallpara{
+    font-size: 1.8vw;
+  }
+
+  main{
+    margin-top: 7vw;
+  }
+  .orangestrip{
+    height: 4vh;
+  }
+  .strip{
+    height: 4px;
+  }
+  .H_C_heading{
+    height: 4vw;
+  }
+  .H_C_info{
+    height: 9vw;
+  }
+  .home_courses2{
+    height: 46vh;
+  }
+
+  .HC_photos{
+    margin-right: 3vw;
+    height: 0;
+  }
+  .sixthline a{
+    width: 92px;
+    height: 23px;
+  }
+  .sale{
+    color: white;
+    width: 39px;
+    height: 20px;
+    font-size: 14px;
+    background-color: #da4c4c;
+    border-radius: 0.5vw;
+    padding-left: 1vh;
+    margin-left: 1vh;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 0.3vh;
+  }
+  .fa{
+    display: none;
+    visibility: collapse;
+  }
+  .course1name{
+    FONT-SIZE: 20px;
+  }
+  .block1{
+    display: none;
+  }
+  .block2{
+    z-index: 0;
+    display: none;
+  }
+  .block4{
+    z-index: 0;
+    display: none;
+  }
+  .block3{
+    z-index: 0;
+    display: none;
+  }
+  .block4 coursepara {
+   display: none;
+   visibility: collapse;
+  }
+  .newsletter{
+    margin-top: 22vh;
+  }
+  form.NL_searchbar button{
+    font-size: 9px;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+}
