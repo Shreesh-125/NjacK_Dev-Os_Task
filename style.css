@@ -361,13 +361,13 @@ padding-top: 2%;
 }
 .HC_head{
     font-size: 1.7vw;
-    margin-left:8.2vw;
+    margin-left:12.2vw;
     color: #be9cfb;
     font-family: 'Kanit', sans-serif;
 }
 .HC_tagline{
     font-size: 4vw;
-    margin-left: 8vw;
+    margin-left: 11.8vw;
     margin-top: 1vh;
     font-family: 'Kanit', sans-serif;
 }
@@ -377,7 +377,7 @@ padding-top: 2%;
     
     margin-right: 52vw;
     display: flex;
-    margin-left: 8.3vw;
+    margin-left: 12vw;
     flex-direction: column;
     font-family: 'Nunito Sans', sans-serif
 }
