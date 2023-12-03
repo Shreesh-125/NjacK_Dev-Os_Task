@@ -361,13 +361,13 @@ padding-top: 2%;
 }
 .HC_head{
     font-size: 1.7vw;
-    margin-left: 12vw;
+    margin-left:8.2vw;
     color: #be9cfb;
     font-family: 'Kanit', sans-serif;
 }
 .HC_tagline{
     font-size: 4vw;
-    margin-left: 12vw;
+    margin-left: 8vw;
     margin-top: 1vh;
     font-family: 'Kanit', sans-serif;
 }
@@ -377,21 +377,21 @@ padding-top: 2%;
     
     margin-right: 52vw;
     display: flex;
-    margin-left: 12vw;
+    margin-left: 8.3vw;
     flex-direction: column;
     font-family: 'Nunito Sans', sans-serif
 }
 .HC_photos{
-    height: 75vh;
-    margin-top: 12vh;
-    display: flex;
-    margin-right: 5vw;
-    margin-left: 5vw;
-    justify-content: space-evenly;
+  height: 75vh;
+  margin-top: 12vh;
+  display: flex;
+  margin-right: 0vw;
+  margin-left: 12vw;
+  column-gap: 2vw;
 }
 .block1{
-    height: 105%;
-    width: 17%;
+    height: 110%;
+    width: 20%;
     background-color: white;
     z-index: -2;
    
@@ -494,8 +494,8 @@ padding-top: 2%;
 
   
 .block2{
-    height: 105%;
-    width: 17%;
+    height: 110%;
+    width: 20%;
     background-color: white;
     z-index: -2;
 }
@@ -534,8 +534,8 @@ padding-top: 2%;
   
 
 .block3{
-    height: 105%;
-    width: 17%;
+    height: 110%;
+    width: 20%;
     background-color: white;
     z-index: -2;
 }
@@ -568,9 +568,9 @@ padding-top: 2%;
   
   
 .block4{
-    height: 105%;
+    height: 110%;
     background-color: white;
-    width: 17%;
+    width: 20%;
     z-index: -2;
 }
 .block4 img{
@@ -721,7 +721,7 @@ padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35vh;
+    margin-top: 8vh;
     font-size: 1.4vw;
 }
 .NL_topic{
@@ -941,7 +941,7 @@ form.NL_searchbar input[type=text] {
    visibility: collapse;
   }
   .newsletter{
-    margin-top: 22vh;
+    margin-top: 6vh;
   }
   form.NL_searchbar button{
     font-size: 9px;
